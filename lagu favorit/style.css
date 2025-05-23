@@ -1,0 +1,45 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    flex-wrap: wrap;
+    margin: 75px;
+}
+
+.lagu {
+    border-radius: 10px;
+    border:1px solid rgb(0, 0, 0);
+    width: 30%;
+    padding:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    background-image: url(img/background.jpg);
+}
+
+.lagu h2 {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lagu img {
+    width: 100%;
+    margin:20px 0px;
+    border-radius: 10px;
+}
+
+.bawah {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+.image-container {
+    position: relative;
+}
+
+.web {
+    background-image: url(img/web.jpg);
+    background-size: cover;
+}
